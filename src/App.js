@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-
+const { key } = require('./key.json');
 const localStorage = window.localStorage;
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     localStorage.setItem('Search', Search)
     const fetchApi = async () => {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&appid=b59d400f6982542f819ea31352c51496&units=metric`
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&appid=${key}&units=metric`
       const response = await fetch(url);
       
       const resJson = await response.json();
