@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const App = () => {
+const localStorage = window.localStorage;
 
+const App = () => {
   const [City, setCity] = useState(null);
-  const [Search, setSearch] = useState("");
+  const [Search, setSearch] = useState(localStorage.getItem('Search'));
   const [Weather, setWeather] = useState(null);
   useEffect(() => {
+    localStorage.setItem('Search', Search)
     const fetchApi = async () => {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&appid=b59d400f6982542f819ea31352c51496&units=metric`
       const response = await fetch(url);
