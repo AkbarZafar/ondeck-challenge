@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ondeck-challenge/static/css/main.073c9b0a.css",
-    "main.js": "/ondeck-challenge/static/js/main.30aeb467.js",
+    "main.js": "/ondeck-challenge/static/js/main.89f4a10d.js",
     "static/js/787.b54d9c1f.chunk.js": "/ondeck-challenge/static/js/787.b54d9c1f.chunk.js",
     "index.html": "/ondeck-challenge/index.html",
     "main.073c9b0a.css.map": "/ondeck-challenge/static/css/main.073c9b0a.css.map",
-    "main.30aeb467.js.map": "/ondeck-challenge/static/js/main.30aeb467.js.map",
+    "main.89f4a10d.js.map": "/ondeck-challenge/static/js/main.89f4a10d.js.map",
     "787.b54d9c1f.chunk.js.map": "/ondeck-challenge/static/js/787.b54d9c1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.30aeb467.js"
+    "static/js/main.89f4a10d.js"
   ]
 }
